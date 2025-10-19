@@ -13,8 +13,8 @@ export default function index() {
       
       
       <View style = {styles.box}>
-        <Button label = "Ask me anything!"/>
-        <Button label = "Check your progress!"/>
+        <Button label = "Ask me anything!" theme = "primary"/>
+        <Button label = "Check your progress!" theme = "primary"/>
       </View>
     </View>
   );

@@ -34,8 +34,8 @@ return (
 
 const styles = StyleSheet.create({
     buttonContainer: {
-        width:320,
-        height:60,
+        width:200,
+        height:30,
         marginHorizontal:20,
         alignItems:"center",
         justifyContent:"center",

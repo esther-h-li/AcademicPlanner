@@ -2,8 +2,7 @@ import Button from "@/components/button";
 import * as ImagePicker from "expo-image-picker";
 import { useState } from "react";
 import { Image, StyleSheet, Text, View } from "react-native"; // Import Image
-
-const mascot = require("../../assets/images/reading.png")
+;const mascot = require("../../assets/images/reading.png")
 
 export default function Settings() {
   const [selectedImage, setSelectedImage] = useState<string | undefined>(
@@ -37,9 +36,11 @@ export default function Settings() {
       <Button
         onPress={pickImageAsync} 
         label="Change your profile picture?" 
-        theme="primary" 
+        theme="withPicture" 
+        textSize = {10}
       />
-    </View>
+
+   </View>
   );
 }
 

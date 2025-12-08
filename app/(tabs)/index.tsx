@@ -77,6 +77,7 @@ const styles = StyleSheet.create({
   },
   text: {
     color: "#27472D",
+    margin: 5,
   },
   progress: {
     width: 200,
